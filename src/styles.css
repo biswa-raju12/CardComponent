@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: lightsteelblue;
+}
+
+.Card1 {
+  position: relative;
+  left: 20%;
+  background-color: white;
+  text-align: center;
+  height: 400px;
+  width: 400px;
+  border-radius: 2%;
+  box-shadow: 0 8 8 16 rgba(0, 0, 0, 255);
+}
+
+.input {
+  margin-bottom: 10px;
+  width: 200px;
+  height: 20px;
+}
+
+.btn {
+  background-color: blue;
+  font-size: 1.5rem bold;
+  color: white;
+  width: 210px;
+  height: 30px;
+}
+
+.Card1 > .Footer {
+  font-size: 2rem;
+}
